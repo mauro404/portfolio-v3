@@ -48,13 +48,13 @@ function Header() {
         <NavLink to="/projects">
           <p className="uppercase flex text-sm text-gray-400"> 1.Projects </p>
         </NavLink>
-        <NavLink to="#experience">
+        <NavLink to="/experience">
           <p className="uppercase flex text-sm text-gray-400"> 2.Experience </p>
         </NavLink>
-        <NavLink to="#about">
+        <NavLink to="/about">
           <p className="uppercase flex text-sm text-gray-400"> 3.About </p>
         </NavLink>
-        <NavLink to="#contact">
+        <NavLink to="/contact">
           <p className="uppercase flex text-sm text-gray-400">4.Contact</p>
         </NavLink>
       </motion.div>
