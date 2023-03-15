@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
-    <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+    <header className="top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
       <motion.div
         initial={{
           x: -500,
@@ -29,6 +29,7 @@ function Header() {
         </NavLink>
       </motion.div>
 
+
       <motion.div
         initial={{
           x: 500,
@@ -43,8 +44,18 @@ function Header() {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center cursor-pointer space-x-4"
+        className=""
       >
+        <div className="flex flex-row mx-auto cursor-pointer">
+        <NavLink to="/">
+          <img
+            className="h-5 inline-block md:hidden"
+            src="/images/logomms_grey.png"
+            alt=""
+          />
+        </NavLink>
+        </div>
+        <div className="flex flex-row items-center cursor-pointer space-x-2 md:space-x-4">
         <NavLink to="/projects">
           <p className="uppercase flex text-sm text-gray-400"> 1.Projects </p>
         </NavLink>
@@ -57,6 +68,7 @@ function Header() {
         <NavLink to="/contact">
           <p className="uppercase flex text-sm text-gray-400">4.Contact</p>
         </NavLink>
+        </div>
       </motion.div>
     </header>
   );
