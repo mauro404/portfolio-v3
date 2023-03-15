@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 export default function About() {
   return ( 
     <div className="min-h-screen md:text-left max-w-5xl px-12 mx-auto">
-      <h3 className="pt-0 md:pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
-      <div className="grid md:grid-cols-2 py-20 gap-8 opacity-80">
+      <div className="grid md:grid-cols-2 py-16 gap-8 opacity-80">
         <motion.img
           initial={{
             x: -100,

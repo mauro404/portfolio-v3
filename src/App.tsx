@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y lg:snap-mandatory overflow-scroll overflow-x-hidden">
+    <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-scroll overflow-x-hidden">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

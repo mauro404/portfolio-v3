@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <div className="min-h-screen max-w-7xl mx-auto px-12">
-      <h3 className="pt-0 md:pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
 

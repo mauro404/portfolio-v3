@@ -45,7 +45,7 @@ function Contact() {
       transition={{ duration: 2 }}
       className="min-h-screen max-w-7xl mx-auto px-12"
     >
-      <h3 className="pt-0 md:pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
 
@@ -76,7 +76,7 @@ function Contact() {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col space-y-2 mx-auto w-2/3 lg:w-2/5"
+          className="flex flex-col space-y-2 mx-auto w-full md:w-3/5 lg:w-2/5"
         >
           <input
             className="contactInput"
