@@ -23,7 +23,7 @@ function Header() {
         <NavLink to="/">
           <img
             className="h-5 hidden md:inline-flex"
-            src="/logomms_grey.png"
+            src="/images/logomms_grey.png"
             alt=""
           />
         </NavLink>
@@ -45,7 +45,7 @@ function Header() {
         }}
         className="flex flex-row items-center cursor-pointer space-x-4"
       >
-        <NavLink to="#projects">
+        <NavLink to="/projects">
           <p className="uppercase flex text-sm text-gray-400"> 1.Projects </p>
         </NavLink>
         <NavLink to="#experience">

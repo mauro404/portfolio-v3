@@ -18,7 +18,7 @@ export default function Home({}: Props) {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/bnw-headshot.jpg"
+        src="/images/bnw-headshot.jpg"
         alt=""
       />
       <div className="z-20">
