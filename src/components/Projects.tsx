@@ -23,7 +23,7 @@ function Projects() {
             // viewport={{ once: true }}
             className="bg-[#292929] rounded-lg p-8 "
           >
-            <img src="/images/chatgpt.png" alt="" className="rounded-lg" />
+            <img src="/images/chatgpt_maurosantos.jpg" alt="" className="rounded-lg" />
 
             <h4 className="font-bold py-2">ChatGPT Clone</h4>
 
@@ -83,7 +83,7 @@ function Projects() {
             transition={{ duration: 2 }}
             className="bg-[#292929] rounded-lg p-8 "
           >
-            <img src="/images/balloons.png" alt="" className="rounded-lg" />
+            <img src="/images/balloons_maurosantos.jpg" alt="" className="rounded-lg" />
 
             <h4 className="font-bold py-2">Boolean Balloons</h4>
 
@@ -161,7 +161,7 @@ function Projects() {
             // viewport={{ once: true }}
             className="bg-[#292929] rounded-lg p-8 "
           >
-            <img src="/images/space2.png" alt="" className="rounded-lg" />
+            <img src="/images/space_maurosantos.jpg" alt="" className="rounded-lg" />
 
             <h4 className="font-bold py-2">Space(bar) Shooter</h4>
 

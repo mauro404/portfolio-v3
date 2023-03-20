@@ -18,12 +18,11 @@ function Experience() {
       <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experience
       </h3>
-      <p className="md:text-base text-sm pt-14 opacity-80">
+      <p className="md:text-base text-sm pt-8 lg:pt-14 opacity-80">
         I’m a career changer with a background in Law and Public Administration.
         I have professional experience on different roles and interacting
         directly with a wide range of audiences such as entrepreneurs, judges
-        and legal professionals, representatives of social organizations and
-        public sectors, customer service, amongst other.
+        and legal professionals, customer service, amongst other.
         <br />
         If you want to know more about my professional experience, I invite you
         to take a look at my {""}
@@ -38,7 +37,7 @@ function Experience() {
         .
       </p>
 
-      <div className=" mx-auto grid md:grid-cols-2 pt-8 gap-10 opacity-80">
+      <div className=" mx-auto grid md:grid-cols-2 pt-8 lg:pt-14 gap-10 opacity-80">
         <div>
           <div className="flex items-center space-x-1">
             <CodeBracketIcon className="text-[#478cfa] h-6 w-6" />
@@ -48,9 +47,9 @@ function Experience() {
             A MERN full stack web developer committed to writing clean, clear
             and maintainable code. Besides the MERN stack (MongoDB, Express,
             React and Node.Js), my main stack includes Git and GitHub for
-            version control, Bootstrap and Figma for styling and, as one might
-            expect, the power trio HTML 5, CSS and JavaScript (ES6). Recently I
-            have worked Next.js, Redux, Firebase and Tailwind CSS.
+            version control, Tailwind CSS, Bootstrap and Figma for styling and,
+            as one might expect, the power trio HTML 5, CSS and JavaScript
+            (ES6). Recently I've working also with Next.js, Redux and Firebase.
           </p>
           <h3 className="font-semibold py-0 text-base text-[#3B71CA]">
             Full-Stack Web Development

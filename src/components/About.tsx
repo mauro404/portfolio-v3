@@ -6,7 +6,7 @@ export default function About() {
       <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
-      <div className="grid md:grid-cols-2 py-16 gap-8 opacity-80">
+      <div className="grid md:grid-cols-2 py-8 md:py-16 gap-8 opacity-80">
         <motion.img
           initial={{
             x: -100,
@@ -41,7 +41,7 @@ export default function About() {
           </p>
           <p className="lg:text-base text-sm pb-6">
             Even though my journey in this field has just begun, I can assure
-            that I'm hooked and I’m here for the long run.
+            that I am here for the long run.
           </p>
         </motion.div>
       </div>

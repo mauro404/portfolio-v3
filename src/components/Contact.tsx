@@ -49,7 +49,7 @@ function Contact() {
         Contact
       </h3>
 
-      <div className="flex flex-col py-12">
+      <div className="flex flex-col py-8 lg:py-12">
         <h4 className="md:text-base text-sm text-center opacity-80">
           I am currently looking for a full time position, but I am also
           interested in freelancing and collabing with other devs. <br />
