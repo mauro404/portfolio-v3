@@ -49,7 +49,8 @@ function Experience() {
             React and Node.Js), my main stack includes Git and GitHub for
             version control, Tailwind CSS, Bootstrap and Figma for styling and,
             as one might expect, the power trio HTML 5, CSS and JavaScript
-            (ES6). Recently I've working also with Next.js, Redux and Firebase.
+            (ES6). Recently I've been working also with TypeScript, Next.js,
+            Redux and Firebase.
           </p>
           <h3 className="font-semibold py-0 text-base text-[#3B71CA]">
             Full-Stack Web Development

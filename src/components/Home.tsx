@@ -1,9 +1,7 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./Circles";
 
-type Props = {};
-
-export default function Home({}: Props) {
+export default function Home() {
   const [text, count] = useTypewriter({
     words: [
       "Hello World!",
