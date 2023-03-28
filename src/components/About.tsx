@@ -29,7 +29,7 @@ export default function About() {
           <p className="lg:text-base text-sm pb-2">
             I am enthusiastic about quiz, puzzle and board games - I usually say
             that chess is my first language because I started playing before I
-            was alphabetized in my mother tongue - but I never thought that
+            was literate in my mother tongue - but I never thought that
             something like that could be more than a hobby... until I started
             coding.
           </p>
