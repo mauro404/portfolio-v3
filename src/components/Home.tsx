@@ -12,7 +12,7 @@ export default function Home() {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-3/4 md:h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden md:overflow-visible pt-8 md:pt-0">
+    <div className="h-3/4 md:h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden md:overflow-visible pt-8 lg:pt-24 w-full">
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"

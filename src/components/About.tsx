@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return ( 
-    <div className="min-h-screen md:text-left max-w-5xl px-12 mx-auto">
+    <div className="md:text-left max-w-5xl px-12 mx-auto w-full">
       <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>

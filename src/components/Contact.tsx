@@ -43,19 +43,17 @@ function Contact() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
-      className="min-h-screen max-w-7xl mx-auto px-12"
+      className="max-w-7xl mx-auto px-12 w-full"
     >
       <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact
       </h3>
 
-      <div className="flex flex-col py-8 lg:py-12">
+      <div className="flex flex-col pt-8 lg:pt-12">
         <h4 className="md:text-base text-sm text-center opacity-80">
           I am currently looking for a full time position, but I am also
           interested in freelancing and collabing with other devs. <br />
-          <span className="decoration-[#3B71CA] underline font-bold">
-            Lets Talk!
-          </span>
+          Let's create something awesome together!
         </h4>
 
         <div className="space-x-4 md:flex mx-auto content-center py-8 opacity-80">

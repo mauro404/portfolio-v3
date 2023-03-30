@@ -13,7 +13,7 @@ function Experience() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
-      className="min-h-screen max-w-6xl mx-auto px-12"
+      className="max-w-6xl mx-auto px-12 w-full"
     >
       <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experience
@@ -142,7 +142,7 @@ function Experience() {
           <h3 className="font-semibold py-0 text-base text-[#3B71CA]">
             Bachelor in Public Policy Management
           </h3>
-          <p className="font-thin pb-8 text-sm">University of Sao Paulo</p>
+          <p className="font-thin text-sm">University of Sao Paulo</p>
         </div>
       </div>
     </motion.div>

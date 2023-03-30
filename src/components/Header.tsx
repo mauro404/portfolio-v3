@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
-    <header className="top-0 p-5 flex items-start md:justify-between max-w-7xl mx-auto z-0 xl:items-center font-semibold lg:font-extrabold">
+    <header className="top-0 p-5 flex items-start md:justify-between max-w-7xl mx-auto z-0 md:items-center font-semibold lg:font-extrabold w-full">
       <motion.div
         initial={{
           x: -500,

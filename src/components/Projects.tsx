@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 function Projects() {
   return (
-    <div className="min-h-screen max-w-7xl mx-auto px-12">
+    <div className="max-w-7xl mx-auto px-12 w-full">
       <h3 className="pt-2 text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 py-8 lg:py-16 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 pt-8 lg:pt-16 gap-4">
         <div className="hover:opacity-100 opacity-70 transition-opacity duration-200">
           <motion.div
             initial={{
